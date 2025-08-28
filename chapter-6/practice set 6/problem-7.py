@@ -2,7 +2,7 @@
 
 post = input("Enter your post: ")
 
-if "harry" in post or "Harry" in post or "HARRY" in post:
+if ("harry".lower() in post.lower()): #this will ignore case sensitivity
     print("This post is talking about Harry")
 
 else:
