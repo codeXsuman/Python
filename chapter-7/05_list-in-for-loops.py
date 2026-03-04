@@ -2,7 +2,7 @@ l = [1, 4, 6, 234, 99, 1001] # list
 
 for item in l:
     print(item)
-else:
+else: # an optional else block can be written in for loops.
     print("done!") # it will execute after the loop is finished
 
 t = (1, 4, 6, 234, 99, 1001) # tuple
@@ -12,5 +12,5 @@ t = (1, 4, 6, 234, 99, 1001) # tuple
 
 
 s = "suman" # string
-# for i in s:
-#     print(i)
+for i in s:
+    print(i) # s, u, m, a, n
